@@ -1,0 +1,10 @@
+<suite name="SeleniumDockerMaven212" parallel="none" verbose="2">
+    <listeners>
+        <listener class-name="org.wtt.docker.listener.ExecutionListener"/>    
+    </listeners>
+	<test name="SeleniumDocker" preserve-order="true">
+		<classes>
+			<class name="test.RobotTest" />
+		</classes>
+	</test> 
+</suite> 
