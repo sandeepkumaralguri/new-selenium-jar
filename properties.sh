@@ -17,7 +17,7 @@ if [ -f "$instanceFile" ]; then
    updated_es_path="es.path=$espath"
    updated_test_planId="test.planId=$testplanId"
    updated_test_planName="test.planName=$testplanName"
-   updated_es_index="es.path=$esindex"
+   updated_es_index="es.index=$esindex"
    #updated_file_Content="file.Content=$fileContent"
     
    # SED command to replace exisitng line with newly updated line in InstanceFile
