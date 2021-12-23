@@ -1,3 +1,5 @@
 #!/bin/bash
+export https_proxy=http://172.16.102.152:8080
+export http_proxy=http://172.16.102.152:8080
 export DISPLAY=:89
 Xvfb :89 & export DISPLAY=:89 & java -jar target/DarazOrder-0.0.1-SNAPSHOT.jar ../testng.xml
